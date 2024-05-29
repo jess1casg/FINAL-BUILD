@@ -95,3 +95,8 @@ img {
 main { 
 padding: 0 1.2em;
 }
+
+@media (max-width: 475px){
+  img {width:350px;}
+}
+  
