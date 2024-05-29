@@ -97,6 +97,16 @@ padding: 0 1.2em;
 }
 
 @media (max-width: 475px){
-  img {width:250px;}
+  img {
+    float:none;
+    width:300px;
+    display: block;
+    margin:0;
+    padding:0;
+    }
+  .image {
+    display: flex;
+    justify-content: center;
+  }
 }
   
