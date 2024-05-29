@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: auto;
+}
+header {
+    font-family: "IBM Plex Mono", monospace;
+  color: white;
+  background-color: #c90e0e;
+  text-align: center;
+  color: black;
+  padding: 1.5em;
+  margin: 0em;
+  
+}
+#wrapper { 
+margin: auto;
+width: 92%; 
+background-color: #ffffff;
+}
+nav {
+  margin: 0;
+  background-color: #ffffff;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  padding: 1.2em;
+}
+nav a {
+  font-family: "IBM Plex Mono", monospace;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25em;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+nav a:link {
+  color: black;
+  text-shadow: -1px 0px 3px white;
+}
+nav a:hover {
+  color: white;
+  text-shadow: -1px 0px 3px black;
+}
+  h4 {
+  display: inline-block;
+}
+
+h4 {
+  font-family: "IBM Plex Mono", monospace;
+}
+p {
+  font-family: "Neuton", serif;
+}
+div {
+  font-family: "Neuton", serif;
+}
+ul {
+  font-family: "Neuton", serif;
+  text-align: left;
+}
+blockquote {
+  font-family: "Neuton", serif;
+}
+footer { 
+clear: none;  
+background-color: white;
+font-size: .70em;
+font-style: italic;
+padding: 1em;
+text-align: center;
+}
+body{
+  position: relative;
+  padding-bottom: 30px;
+  min-height: 100%;
+  margin-left: 3;
+  text-align: left;
+  background-color: #f5b0b0;
+  margin: 0;
+  background-image: 
+linear-gradient(to bottom, #ffffff 13%, #ff9696 60%);  
+}
+
+img {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+}
+main { 
+padding: 0 1.2em;
+}
